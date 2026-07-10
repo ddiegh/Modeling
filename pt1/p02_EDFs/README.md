@@ -14,11 +14,13 @@ En esta practica se introducen las ecuaciones en diferencias finitas, las cuales
 
 ### 1. Crecimiento exponencial
 Primero consideremos la siguiente Ecuación en Diferencias Finitas
+
 $$ P_{n+1} = k P_n $$  
 veremos como se comporta consideranto distintos valores de $k$
 
-| k: | 2 | 1 | 0.5 | -0.5 | -1 | -2 |
+| | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **k** | 2 | 1 | 0.5 | -0.5 | -1 | -2 |
 
 ![crecimiento_exp](/imagenes/Figure_1.png)
 
@@ -33,6 +35,7 @@ Ahora probaremos las ecuaciones en diferencias finitas en la función logistica:
 $$\frac{dP}{dt} = rP(1-P/K)$$
 
 con valores iniciales  $r=0.5, k=1000$ y las poblaciones iniciales: 
+
 | Po |
 | :---: |
 | 5 |
@@ -68,6 +71,7 @@ En todos los caso vemos que la función converge a valor de $1000$ y esto ocurre
 La ecuación que ahora se considera es: 
 $$ X_{n+1} = r X_n + b $$
 y se probará con los siguientes valores
+
 | Parámetro $r$ | Parámetro $b$ | 
 | :---: | :---: 
 | 0.5 | 2 | 
