@@ -1,0 +1,1 @@
+This repository contains my work for two modeling courses, covering mathematical, numerical, and computational approaches (a first step into scientific computing)
