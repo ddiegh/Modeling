@@ -18,6 +18,7 @@ Primero consideremos la siguiente Ecuación en Diferencias Finitas
 $$ 
 P_{n+1} = k P_n
 $$  
+
 veremos como se comporta consideranto distintos valores de $k$
 
 | | | | | | | |
@@ -33,6 +34,7 @@ En esta imagen podemos observar como se comporta el sistema con los distintos va
 
 ### 2. Función logistica 
 Ahora probaremos las ecuaciones en diferencias finitas en la función logistica: 
+
 $$ 
 \frac{dP}{dt} = rP(1-P/K)
 $$
@@ -74,9 +76,11 @@ En todos los caso vemos que la función converge a valor de $1000$ y esto ocurre
 
 ### 3. Sistema lineal 
 La ecuación que ahora se considera es: 
+
 $$ 
 X_{n+1} = r X_n + b 
 $$
+
 y se probará con los siguientes valores
 
 | Parámetro $r$ | Parámetro $b$ | 
@@ -94,10 +98,13 @@ En este caso podemos ver como hay casos en el que el sistema explota y otros don
 
 ### 4. Comparación entre una solucion analitica y una numerica
 En este ejercicio la idea es comparar las soluciones analiticas y numericas de ls ecuacion diferencial
+
 $$
 \frac{dy}{dx} = -6x + 3
 $$
+
 con condicion inicial 
+
 $$ 
 y(0)=2
 $$
@@ -107,10 +114,16 @@ $$
 Lo primero que se hizo fue resolver la ecuación analiticamente y usando diferencias finitas llegando a los resultados
 
 * Solución analitica
-$$ y(x) = -3x^2 + 3x +2 $$
+
+$$
+y(x) = -3x^2 + 3x +2 
+$$
 
 * Solución diferencias finitas 
-$$ y_{n+1} = y_n + \Delta x (-6x_n+3) $$
+
+$$
+y_{n+1} = y_n + \Delta x (-6x_n+3) 
+$$
 
 Despues de computar las soluciones, encontrar los valores numericos y graficarlos llegamos a la siguiente grafica, en donde podemos notar que las soluciones numericas tienen un pequeño error pero que soy muy cercanas a las soluciones numericas
 
