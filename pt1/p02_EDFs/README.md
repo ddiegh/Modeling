@@ -5,7 +5,7 @@ En esta practica se introducen las ecuaciones en diferencias finitas, las cuales
 
  Se hacen distintas pruebas con 3 modelos, cambiando algunos parametros para ver como se comportan los sistemas, despues se hace una comparación entre las soluciones analiticas de una EDO y la aproximación numerica.
 
- ## Estructura de la practica 
+## Estructura de la practica 
  En el archivo `modelos.py` se definen las funciones que nos van a ayudar en cada ejericico, (se definen las diferencias finitas)
 
  En `main.py` se hace se ocupan los modelos para encontrar los valores numericos de las ecuaciones en diferencias finitas, y se grafican estos valores numericos.
@@ -25,8 +25,7 @@ veremos como se comporta consideranto distintos valores de $k$
 ![crecimiento_exp](/imagenes/Figure_1.png)
 
 En esta imagen podemos observar como se comporta el sistema con los distintos valores que consideremos: 
-* K>0: 
-el sistema tiene un comportamiento exponencial, tanto exponencial positivo como uno negativo 
+* K>0: el sistema tiene un comportamiento exponencial, tanto exponencial positivo como uno negativo 
 * K=0: el sistema se mantiene constante
 * K<0: se tiene un moviemiento oscilatorio que puede variar dependiendo del valor, ya sea llegando a converger, explotando o quedandose igual 
 
@@ -73,7 +72,7 @@ $$ X_{n+1} = r X_n + b $$
 y se probará con los siguientes valores
 
 | Parámetro $r$ | Parámetro $b$ | 
-| :---: | :---: 
+| :---: | :---: |
 | 0.5 | 2 | 
 | 1 | 1 |
 | 1 | 0 | 
@@ -90,7 +89,9 @@ En este ejercicio la idea es comparar las soluciones analiticas y numericas de l
 $$\frac{dy}{dx} = -6x + 3$$
 con condicion inicial 
 $$ y(0)=2$$
+
 ---
+
 Lo primero que se hizo fue resolver la ecuación analiticamente y usando diferencias finitas llegando a los resultados
 
 * Solución analitica
