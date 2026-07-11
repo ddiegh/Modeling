@@ -97,7 +97,7 @@ $$R_0 = \frac{\alpha S_0}{N \beta}$$
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | 1 | 1,000,000 | 127 | 1.0 | 0.6 | **1.66** | Epidemia Controlada |
 
-![Imagen1](images/Figure_1.png)
+![Imagen1](imagenes/Figure_1.png)
 * **Dinámica:** A pesar de tener muchos susceptibles, la alta tasa de recuperación ($\beta=0.6$) frena el crecimiento explosivo.
 * **Observación:** La curva de infectados muestra un pico claro pero no agota a toda la población susceptible, lo que indica una epidemia que se extingue dejando una parte de la población sana.
 
