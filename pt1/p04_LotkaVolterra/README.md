@@ -35,16 +35,12 @@ Por lo tanto ya tenemos el modelo con el que podemos ver como se relacionarian l
 
 
 $$
-
 \begin{cases}
-
 C_{n+1} = C_n + rC_n - rC_n^2 - b C_{n} Z_{n}\\
-
 Z_{n+1} = Z_n - d Z_n + c Z_n C_n
-
 \end{cases}
-
 $$
+
 
 En donde intervienen las siguientes variables:
 
@@ -84,7 +80,7 @@ def sistema(Co, Zo, r, c, b, d, n):
 
 ```
 
-Esta funcion ejecuta el algoritmo y nos devuelve los pasos que se hicieron, los valores de los conejos y zorros, junto al punto $ ( d/c, r(c-d)/bc ) $ que es el punto de equilibrio.
+Esta funcion ejecuta el algoritmo y nos devuelve los pasos que se hicieron, los valores de los conejos y zorros, junto al punto $( d/c, r(c-d)/bc )$ que es el punto de equilibrio.
 
 
 ## Ejecución 
