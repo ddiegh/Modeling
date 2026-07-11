@@ -97,7 +97,7 @@ $$R_0 = \frac{\alpha S_0}{N \beta}$$
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | 1 | 1,000,000 | 127 | 1.0 | 0.6 | **1.66** | Epidemia Controlada |
 
-![Imagen1](Images/Figure_1.png)
+![Imagen1](images/Figure_1.png)
 * **Dinámica:** A pesar de tener muchos susceptibles, la alta tasa de recuperación ($\beta=0.6$) frena el crecimiento explosivo.
 * **Observación:** La curva de infectados muestra un pico claro pero no agota a toda la población susceptible, lo que indica una epidemia que se extingue dejando una parte de la población sana.
 
@@ -106,7 +106,7 @@ $$R_0 = \frac{\alpha S_0}{N \beta}$$
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | 2 | 100,000 | 200,000 | 0.7 | 0.5 | **0.23** | Extinción Inmediata |
 
-![Imagen2](Imagenes/Figure_2.png)
+![Imagen2](imagenes/Figure_2.png)
 * **Dinámica:** Debido a que hay pocos susceptibles en comparación con la gran cantidad de infectados iniciales, la epidemia no puede crecer. 
 * **Observación:** El número de infectados cae drásticamente desde el tiempo cero. Es un escenario donde la mayoría de la población ya es "removida" o simplemente no hay suficientes contactos sanos para mantener la cadena de contagio.
 
@@ -115,7 +115,7 @@ $$R_0 = \frac{\alpha S_0}{N \beta}$$
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | 3 | 200,000 | 100,000 | 0.75 | 0.5 | **0.50** | Descenso Constante |
 
-![Imagen3](Imagenes/Figure_3.png)
+![Imagen3](imagenes/Figure_3.png)
 * **Dinámica:** Aunque el virus es contagioso ($\alpha=0.75$), el $R_0$ es menor a 1 debido a la baja proporción de susceptibles iniciales respecto al total de la población. 
 * **Observación:** Similar al caso anterior, la pendiente de los infectados es negativa desde el inicio. La enfermedad desaparece rápidamente sin generar nuevos picos.
 
@@ -124,7 +124,7 @@ $$R_0 = \frac{\alpha S_0}{N \beta}$$
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | 4 | 1,000,000 | 10 | 0.75 | 0.5 | **1.50** | Epidemia Masiva |
 
-![Imagen4](Imagenes/Figure_4.png)
+![Imagen4](imagenes/Figure_4.png)
 * **Dinámica:** Aunque comienza con solo 10 infectados, un $R_0 > 1$ garantiza que cada persona infecte a más de una antes de recuperarse. 
 * **Observación:** La curva de infectados crece lentamente al principio y luego dispara un pico masivo que reduce significativamente la población susceptible. Este caso demuestra que comenzar con una cantidad mínima de infectados es suficiente para generar una crisis sanitaria si las condiciones de contagio son favorables.
 
