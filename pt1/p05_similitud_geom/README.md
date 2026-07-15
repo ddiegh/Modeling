@@ -40,7 +40,7 @@ A continuación pondremos a prueba nuestro primer modelo con los siguientes dato
 Para poder ajustar nuestro modelo necesitamos datos sobre el peso ($W$ ) y la longitud ($l$)
 de los pescados.
 
-Primero graficaremos la comparación $ W \propto l^3 $ con los datos sacados de la tabla
+Primero graficaremos la comparación $W \propto l^3$ con los datos sacados de la tabla
 
 * Obs:  cuando "pesamos" en kg es la masa, y no el peso de lo que
 estemos midiendo, entonces vamos a usar los datos de la masa para obtener el peso ($W = gm$)
@@ -48,31 +48,31 @@ estemos midiendo, entonces vamos a usar los datos de la masa para obtener el pes
 ![comparación 1](imagenes/Figure_1.png)
 
 Podemos observar que los datos graficados si siguen una relación casi identica 
-cuando los graficamos de la forma  $ W \propto l^3 $  es decir que el modelo si nos esta dando un valor 
+cuando los graficamos de la forma  $W \propto l^3$  es decir que el modelo si nos esta dando un valor 
 muy aproximado del peso real.
 
 
 ### Valor de proporcionalidad
-Dado que nuestro modelo nos dice que el peso sigue la relación  $W \propto l^3 $, entonces debe existir 
-una constante $ K $ tal que:
+Dado que nuestro modelo nos dice que el peso sigue la relación  $W \propto l^3$, entonces debe existir 
+una constante $K$ tal que:
 
 $$ W = k l^3 $$
 
 Ahora encontraremos ese valor $K$.
 
 Por la forma en que graficamos los valores anteriores, dado que en el eje x tenemos los datos
-$l^3$ y en el eje y tenemos $W$, entonces la igualdad  $ W = k l^3 $  nos suguiere una *regresion  lineal*
+$l^3$ y en el eje y tenemos $W$, entonces la igualdad  $W = k l^3$  nos suguiere una *regresion  lineal*
 para encontrar el valor de la constante $K$. la cual sería la constante $m$ de la regresion ($y=mx + b$)
 
 Aqui entra en juego la regresión lineal que habiamos visto en el inicio del curso, la cual se encuentra en 
 el archivo `modelos.py`
 
-Una vez que tenemos la constante  $ K = 0.00014671200430201652 $  podemos hacer la regresión la cual nos ayuda a darnos cuenta
+Una vez que tenemos la constante  $K = 0.00014671200430201652$  podemos hacer la regresión la cual nos ayuda a darnos cuenta
 que tan alejados está nuestro modelo de proporcion con los datos que son reales 
 
 ![comparacion](imagenes/Figure_2.png)
 
-En esta regresion podemos ver que el modelo  $ W = k l^3 $  tiene valores muy cercamos a los puntos reales 
+En esta regresion podemos ver que el modelo  $W = k l^3$  tiene valores muy cercamos a los puntos reales 
 entonces es una buena forma de comprobar que el modelo nos ayudaría a predecir los pesos de los pescados.
 
 ## Segundo modelo
@@ -104,7 +104,7 @@ Haremos lo mismo que en el modelo anterior y veremos como se comporta, suponiend
 | 31.75 |
 | 22.86 |
 
-Primero hacemos la comparación y graficamos los puntos siguiendo la relacion  $ W \propto l C^2 $  para despues volver a hacer la regresion lineal 
+Primero hacemos la comparación y graficamos los puntos siguiendo la relacion  $W \propto l C^2$  para despues volver a hacer la regresion lineal 
 la cual nos va a mostrar como se ve el modelo en comparación con los datos reales
 
 ![modelo circunferencia](imagenes/Figure_3.png)
