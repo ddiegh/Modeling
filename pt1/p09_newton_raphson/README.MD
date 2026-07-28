@@ -80,7 +80,7 @@ La función `main` prueba ambos métodos con distintos puntos iniciales, una tol
 
 ## Grafica de la funcion
 Primero hicimos una grafica para darnos cuenta en que intervalo podiamos encontrar las raices y asi definir nuestros puntos iniciales.
-![imagen 1](/imagenes/Figure_1.png)
+![imagen 1](imagenes/Figure_1.png)
 
 ## Análisis
 
