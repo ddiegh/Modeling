@@ -1,6 +1,6 @@
 # Metodos para minimizar funciones (descenso de gradiente y algoritmo evolutivo)
 
-En esta practica implementamos dos metodos para minimizar funciones $ f: R^n \rightarrow R $. 
+En esta practica implementamos dos metodos para minimizar funciones $f: R^n \rightarrow R$. 
 
 Primero, implementamos una función que calcula el gradiente en un punto dado (`grad`) usando diferencias centradas. 
 
@@ -9,7 +9,7 @@ Con la función anterior tenemos ya casi todo para implementar el `descenso de g
 $$X_{n+1} = X_n - a \nabla f(X_n)$$
 
 En donde: 
-* $ f: R^n \rightarrow R $
+* $f: R^n \rightarrow R$
 * $a$: tasa de aprendizaje 
 
 Por ultimo tenemos un `algoritmo evolutivo` el cual considera un intervalo en el que busca valores. 
