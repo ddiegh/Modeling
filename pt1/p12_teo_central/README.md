@@ -38,3 +38,28 @@ Usaremos 50,000 variables aleatorias $X_i$ en cada distribucion, luego generarem
 
 Las simulaciones corren muy bien pero con valores arriba de 5000 el tiempo se vuelve muy lento por lo que se vuelve complicado simular muchas variables aleatorias.
 
+## 2. Teorema de Glivenko-Cantelli
+La segunda parte es probar el teorema de Glivenko-Cantelli de forma computacional.
+
+Primero construimos una funcion que calcula la funcion de distribucion empirica de una lista de variables aleatorias, definida como:
+
+Sean $X_1, ..., X_n$ variables aleatorias $iid$ entonces su funcion de distribucion empirica es:
+
+$$F_n(t) = \frac{1}{n} \sum_{i=1}^{n} \mathbb{I}_{X_i <= t}$$
+
+
+Lo que nos dice el teorema de Glivenko Cantelli es que si tenemos suficientes muestras, entonces nuestra distribucion empirica converge a la distribucion real.
+
+Despues de simular el teorema con muestras de tamaño $10, 100, 1000$ y las distribuciones:
+
+* Uniforme(0, 1)
+* Exp(2)
+* Pareto($\alpha = 3$, c=3 )
+
+Obtenemos los siguientes resultados en donde podemos ver las convergencias
+
+![unif](imagenes%20/Figure_6.png)
+
+![exp](imagenes%20/Figure_5.png)
+
+![pareto](imagenes%20/Figure_4.png)
