@@ -76,7 +76,7 @@ def sim_teo_Glivenko_Cantelli():
 
     plt.figure(figsize=(15, 4)) # Crea la tercera ventana
     for i, n in enumerate(tamanos):
-        X_pareto = [dt.pareto(3, 2) for _ in range(n)]
+        X_pareto = [dt.pareto(2, 3) for _ in range(n)]
         t_pareto = np.linspace(0, 10, 300)
         
         y_emp = [FDe(X_pareto, t) for t in t_pareto]
@@ -85,7 +85,7 @@ def sim_teo_Glivenko_Cantelli():
         plt.subplot(1, 3, i + 1)
         plt.plot(t_pareto, y_emp, color="teal", label="Empírica")
         plt.plot(t_pareto, y_ana, color="red", linestyle="--", label="Analítica")
-        plt.title(f"Pareto (3,2) | n = {n}")
+        plt.title(f"Pareto (2,3) | n = {n}")
         plt.grid(True, alpha=0.3)
         if i == 0: plt.legend()
     plt.tight_layout()
